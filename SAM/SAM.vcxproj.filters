@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{10323ef3-0edf-492e-86a8-21d93fb7afb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bmp">
+      <UniqueIdentifier>{5e31f186-a349-49f9-93b2-b27a1972adeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Button">
+      <UniqueIdentifier>{28b95d7b-fa91-4c2c-a5cf-dccaa5d5f16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Key">
+      <UniqueIdentifier>{135f9f64-84a5-47e5-9cc5-ac26055f4ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{3a86a301-026c-4a16-9372-c549aeed55c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{b63f5c98-a311-4ea7-9785-73f52ff4162e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\00. Title">
+      <UniqueIdentifier>{4ae37816-be60-416d-a2f0-748bac5b039c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\01. MainMenu">
+      <UniqueIdentifier>{58405c06-2677-4125-a136-07959ed0fc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\02. SelectScenario">
+      <UniqueIdentifier>{e6de65a4-2c25-4e26-a410-f183b9630d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\03. SelectPrince">
+      <UniqueIdentifier>{ccc329b7-077a-49e6-8cf7-d143515f4440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\04. WorldMapScene">
+      <UniqueIdentifier>{f75a3579-da4b-4981-8275-397b47b7f355}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpManager.h">
+      <Filter>소스 파일\Bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp.h">
+      <Filter>소스 파일\Bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Scene\00. Title</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>소스 파일\Scene\01. MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScenarioScene.h">
+      <Filter>소스 파일\Scene\02. SelectScenario</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPrinceScene.h">
+      <Filter>소스 파일\Scene\03. SelectPrince</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>소스 파일\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapScene.h">
+      <Filter>소스 파일\Scene\04. WorldMapScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>소스 파일\Bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpManager.cpp">
+      <Filter>소스 파일\Bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene\00. Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>소스 파일\Scene\01. MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScenarioScene.cpp">
+      <Filter>소스 파일\Scene\02. SelectScenario</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPrinceScene.cpp">
+      <Filter>소스 파일\Scene\03. SelectPrince</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>소스 파일\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapScene.cpp">
+      <Filter>소스 파일\Scene\04. WorldMapScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
